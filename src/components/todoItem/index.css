@@ -1,0 +1,49 @@
+.todo-item {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.3),
+        1px 0px 0px 0px rgba(0, 0, 0, 0.1),
+        -1px -1px 0px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.todo-item input {
+    height: 100%;
+    vertical-align: top;
+}
+
+.todo-item input[type="checkbox"] {
+    width: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.todo-item input[type="text"] {
+    border: none;
+    font-size: 16px;
+}
+
+.todo-item button {
+    border: none;
+    background-color: #fff;
+    height: 100%;
+    width: 50px;
+    float: right;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.todo-item button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.todo-item button:first-of-type {
+    margin-right: 20px;
+}
+
+.todo-item .icon {
+    vertical-align: top;
+}

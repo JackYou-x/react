@@ -1,0 +1,21 @@
+.header {
+    overflow: hidden;
+}
+
+.header span {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header button {
+    float: right;
+    color: #fff;
+    background-color: rgb(63, 81, 181);
+    border: none;
+    font-size: 15px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 1px -5px rgb(63, 81, 181);
+    cursor: pointer;
+}
